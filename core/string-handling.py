@@ -10,9 +10,18 @@ print(sentence)
 #double quoted sentence (doesn't need character scape)
 sentence = "I don't know anything about that."
 print(sentence)
-#creating a string using using * to reppeat the value
-reppeatedString = "hey" * 8
-print(reppeatedString)
+#creating a string using using * to repeat the value
+repeatedString = "hey" * 8
+print(repeatedString)
+
+#length of a string
+print(len(repeatedString))
+
+#conversion of a string to upper case
+print("abcdefg".upper())
+
+#conversion of a string to lower case
+print("ABCDEFG".lower())
 
 #array of strings
 strings = ['My', 'Name', 'Is', 'John', 'Doe']
